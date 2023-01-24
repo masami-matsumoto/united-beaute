@@ -1,0 +1,437 @@
+/* -----------------------------------------------------------------
+   root
+----------------------------------------------------------------- */ :root {
+  --black: #231815;
+  --white: #fff;
+  --gray: #666;
+  --gold: #BB9875;
+  --bg: #F2EAE2;
+  --heading: clamp(1.125rem, 0.442rem + 4.4603vw, 4.25rem);
+  --gold2: #C1A181;
+  --box-shadow: .8rem .8rem 1.2rem rgba(0, 0, 0, .05), -.8rem -.8rem 1.2rem #fff;
+}
+/* -----------------------------------------------------------------
+   reset
+----------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, section, summary, div, input, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+html {
+  font-family: YuGothic, 'Yu Gothic', sans-serif;
+  font-size: 62.5%;
+  touch-action: manipulation;
+}
+body {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  color: var(--gold);
+  font-feature-settings: "palt";
+  background: var(--black);
+}
+.wrap {
+  min-height: 100vh;
+  position: relative;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: #5d737e;
+  transition: .3s ease-in-out;
+}
+a:hover, a:active {
+  opacity: 0.7;
+}
+input, select, option {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background-color: #F7F8F8;
+  border: none;
+  padding: 1rem;
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-left: solid 1px #ececec;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+@media screen and (max-width: 768px) {
+  body {
+    line-height: 2.4rem;
+    letter-spacing: 0.05em;
+  }
+}
+/* -----------------------------------------------------------------
+   Loading animation
+----------------------------------------------------------------- */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.pace-inactive {
+  display: none;
+}
+.pace .pace-progress {
+  background: #5d737e;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 1px;
+}
+@media screen and (max-width: 768px) {
+  .pace .pace-progress {
+    display: none;
+  }
+}
+/* -----------------------------------------------------------------
+   top main
+----------------------------------------------------------------- */
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+  display: none;
+}
+.bx-wrapper {
+  box-shadow: none;
+  margin-bottom: 2.5vh;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+  background: #5d737e;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #adb8be;
+}
+.main-wrap {
+  padding: 5vh 5vw;
+}
+.logo-image {
+  margin: 2.5vh 0;
+  text-align: center;
+}
+.top-image img {
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .main-wrap {
+    padding: 2.5vh 5vw;
+  }
+}
+/* -----------------------------------------------------------------
+   contents
+----------------------------------------------------------------- */
+.page-wrap {
+  width: 100%;
+  min-height: 100%;
+  padding: 60px 0 25vh;
+  margin: 0 auto;
+}
+.content-wrap {
+  width: 100%;
+  max-width: 910px;
+  margin: 0 auto;
+  padding: 0 5vw;
+}
+.content-title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5vh 0;
+}
+.content-item {
+  max-width: 650px;
+  margin: 0 auto 5vh;
+}
+.content-item pre {
+  white-space: pre-wrap;
+}
+.content-subtitle {
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2.5vh;
+  border-bottom: solid 1px;
+}
+.item-list-wrap {
+  max-width: calc(910px - 5vw);
+  width: 100%;
+  padding: 0 auto;
+  margin-bottom: 5vh;
+  display: block;
+}
+.top-content-wrap {
+  margin: 0 auto;
+  position: relative;
+}
+.item-list-item {
+  width: calc(100% / 4 - 15px);
+  height: auto;
+  padding-bottom: 5vh;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  position: relative;
+}
+.item-list-item img {
+  width: 170px;
+  height: 170px;
+  object-fit: scale-down;
+}
+.item-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+.item-list-item span {
+  display: inline-block;
+  width: 100%;
+}
+.btn-area {
+  text-align: center;
+}
+.btn {
+  width: 100%;
+  max-width: 460px;
+  height: 50px;
+  line-height: 50px;
+  background-color: var(--black);
+  border: solid 1px var(--gold);
+  display: inline-block;
+  text-align: center;
+  color: var(--gold);
+}
+@media screen and (max-width: 768px) {
+  .page-wrap {
+    padding: 70px 0 15vh;
+    margin: 0;
+  }
+  .content-title {
+    margin: 2.5vh 0 5vh;
+  }
+  .item-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .item-list-item {
+    width: calc(100% / 2 - 2vw);
+    margin-right: 0;
+  }
+  .item-list-item img {
+    width: 100%;
+    min-width: calc(100% / 2 - 5vw);
+    min-height: calc(100vw / 2 - 5vw);
+  }
+  .item-list-item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .btn {
+    max-width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+  }
+}
+/*------------------------------
+   ヘッダー（$module.header）
+------------------------------*/
+.header {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black);
+}
+.header .header-logo-wrap {
+  width: 46.9387755vw;
+  margin: 0.5rem 4.3055555556vw;
+}
+.header .header-logo-wrap a {
+  height: 60px;
+  line-height: 60px;
+}
+.header .header-logo-wrap img {
+  vertical-align: middle;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .header .header-logo-wrap a {
+    height: 40px;
+    line-height: 40px;
+  }
+  label span {
+    display: none;
+  }
+}
+/*----- フッター ($module.footer) -----*/
+.footer {
+  width: 100%;
+  padding: 2.5vh 0;
+  font-size: 1.2rem;
+}
+.footer a {
+  padding: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+.footer-inner {
+  width: 100%;
+  max-width: 910px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-nav {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+.footer-sns-area {
+  min-width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-copyrights {
+  width: 100%;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 5vw;
+  }
+  .footer-inner {
+    flex-wrap: nowrap;
+    padding: 0.6rem 0;
+    flex-flow: row-reverse;
+  }
+  .footer-nav {
+    display: none;
+  }
+  .footer-sns-area {
+    display: none;
+  }
+  .footer-logo {
+    width: 19px;
+    height: 19px;
+  }
+}
+/*------------------------------
+  アニメーション
+------------------------------*/
+/* blur */
+.blur {
+  animation-name: blurAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes blurAnime {
+  from {
+    filter: blur(10px);
+    transform: scale(1.02);
+    opacity: 0;
+  }
+  to {
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.blurTrigger {
+  opacity: 0;
+}
+/* fadedown */
+/* アニメーションスタートの遅延時間を決めるCSS*/
+.delay-time02 {
+  animation-delay: 0.2s;
+}
+.delay-time04 {
+  animation-delay: 0.4s;
+}
+.delay-time06 {
+  animation-delay: 0.6s;
+}
+/*==================================================
+スタート時は要素自体を透過0にするためのopacity:0;を指定する
+===================================*/
+.box {
+  opacity: 0;
+}
+/*==================================================
+動き自体の指定：今回は「ふわっ」
+===================================*/
+.fadeDown {
+  animation-name: fadeDownAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes fadeDownAnime {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.TextRandomAnime span{
+	opacity: 0;
+}
+.TextRandomAnime.appearRandomtext span{ 
+	animation:text_randomanime_on .5s ease-out forwards;
+}
+
+/*アニメーションで透過を0から1に変化させる*/
+@keyframes text_randomanime_on {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.TextRandomAnime.appearRandomtext span:nth-child(2n) {
+	animation-delay: .5s;/* spanのついた2の倍数の文字列の変化を0.5秒遅らせる*/
+}
+.TextRandomAnime.appearRandomtext span:nth-child(3n+1) {
+	animation-delay: .15s;/* spanのついた3の倍数＋1の文字列の変化を0.15秒遅らせる*/
+}
