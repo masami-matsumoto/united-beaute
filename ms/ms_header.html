@@ -1,0 +1,52 @@
+<header class="header">
+    <div class="cp_cont_leftnav">
+        <div class="cp_offcm04">
+            <input type="checkbox" id="cp_toggle04">
+            <label for="cp_toggle04" class="cp_toggle04"><span></span><span></span></label>
+            <div class="cp_menu_leftnav">
+                <div class="drawer-menu-top">
+                    <div class="menu-login"> 
+                        <{* ログインしていたら *}>
+                        <{if $member.is_logged_in}> <a href="<{$url.mypage}>" class="btn">Account</a> <{else}> <a href="<{$url.mypage}>" class="btn">Login</a> <{/if}>
+                    </div>
+                </div>
+                <nav id="g-nav">
+                <ul class="menu-category-wrap">
+                    <!-- <{section name=i loop=$category_menu.list}>
+                    <li class="menu-category-item"> <a href="<{$category_menu.list[i].url}>"><{$category_menu.list[i].name}></a> </li>
+                    <{/section}> -->
+                    <li><a href="http://shop.united-beaute.co.jp/">12 Cosme</a></li>
+                    <li><a href="http://shop.united-beaute.co.jp/view/category/all_items">All Item</a></li>
+                    <li><a href="https://united-beaute.co.jp/service/">Service</a></li>
+                    <li><a href="https://united-beaute.co.jp/company/">About</a></li>
+                    <li><a href="https://united-beaute.co.jp/contact/">Contact</a></li>
+                    <{* ログインしていたら *}>
+                    <{if $member.is_logged_in}>
+                    <li class="menu-sub-item"><a href="<{$url.logout}>">ログアウト</a></li>
+                    <{/if}>
+                </ul>
+                </nav>
+                <!-- <ul class="menu-sns">
+                    <li class="menu-sns-item pc-menu"><a href="#"><img src="/view/images/template/5/icon-instagram.svg" alt="Instagram"></a></li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+    <div class="header-logo">
+        <h1 class="header-logo-wrap" id="header-logo">
+            <a href="https://united-beaute.co.jp/"><{if $shop.logo_url}><img src="<{$shop.logo_url}>" alt="<{$shop.name}>"><{else}><{$shop.name}><{/if}></a>
+        </h1>
+    </div>
+    <div class="cp_cont_cart">
+        <div class="cp_offcm01">
+            <input type="checkbox" id="cp_toggle01" name="cp_toggle01">
+            <label for="cp_toggle01" class="cp_toggle01"><i class="material-icons">shopping_cart</i><span>Cart</span><p class="cart-badge"><{if $cart.has_item}><{if 100 <= $cart.total_quantity}>99+<{else}><{$cart.total_quantity}><{/if}><{/if}></p></label>
+            <div class="cp_menu_cart">
+                <iframe src="" height="100%" class="cart-object" data-url="<{$url.cart}>?embed"></iframe>
+            </div>
+            <div class="cartin-msg-pc">買い物カゴに追加されました</div>
+        </div>
+    </div>
+    <a href="<{$cart.order_url}>" id="checkout-url" style="display:none;"></a>
+    <div class="cartin-msg-sp">買い物カゴに追加されました</div>
+</header>

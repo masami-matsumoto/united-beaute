@@ -1,0 +1,369 @@
+.page-wrap-dateil {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  background: white;
+}
+.dateil_lp_wrap .dateil_lp_image img {
+  width: 100%;
+  height: auto;
+}
+.dateil_bottom {
+  background-color: #BB9875;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  text-align: center;
+  color: #fff;
+}
+.dateil_bottom h2 {
+ font-size: 1.8rem;
+ margin: 5vh 0 2.5vh;
+}
+.item-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 1vh;
+}
+.item-special {
+   font-size: 1.2rem;
+    margin: 0 0 1vh;
+}
+.item-price {
+    font-size: 1.6rem;
+    text-align: left;
+     margin: 0 0 1vh;
+    opacity: 0.75;
+}
+/* LP_css*/
+h1, h2, h3, h4, h5, h6, p, figure, ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.lp {
+font-family: serif;
+}
+.lp p {
+line-height: 1.8;
+}
+.sr-only {
+border: 0;
+clip: rect(0, 0, 0, 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+.contents_inner {
+padding-right: 30px;
+padding-left: 30px;
+}
+.contents_small-text {
+font-size: 10px;
+}
+.contents_text-border {
+width: 100%;
+padding: 7px 48px;
+margin-bottom: 10px;
+border: 1px solid #CCA57E;
+font-size: 12px;
+text-align: center;
+}
+.contents_logo {
+width: 100px;
+margin: 0 auto 36px;
+}
+.title_flex {
+display: flex;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+.title_flex > h3 {
+position: relative;
+height: 72px;
+width: 72px;
+margin-right: 10px;
+border-radius: 50%;
+background-color: #CCA57E;
+color: #fff;
+font-size: 12px;
+text-align: center;
+}
+.title_flex > h3 span {
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+white-space: nowrap;
+}
+.title_flex-sub {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+height: 72px;
+}
+.title_flex-sub > p {
+display: block;
+font-size: 12px;
+}
+.lp article {
+max-width: 750px;
+margin: 0 auto;
+}
+/* エグゼクティブキーセラム */
+.text_vertical-rl {
+display: inline-block;
+text-align: left;
+font-size: 0.875rem;
+letter-spacing: 0.4em;
+white-space: nowrap;
+-ms-writing-mode: tb-rl;
+-webkit-writing-mode: vertical-rl;
+writing-mode: vertical-rl;
+position: absolute;
+top: 100px;
+right: 36px;
+}
+.logo_img {
+position: absolute;
+bottom: 40px;
+left: 50%;
+transform: translateX(-50%);
+height: 13px;
+}
+.logo_img img {
+height: 100%;
+}
+.contents4 {
+max-width: 750px;
+margin: 0 auto;
+}
+.contents4_back {
+  background-color: #000;
+}
+.contents4 .contents_inner {
+padding-top: 27px;
+padding-bottom: 60px;
+}
+.contents4 h2 {
+margin-bottom: 22px;
+}
+.contents_price-sp {
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+background-color: #fff;
+}
+.contents_price-sp .contents_logo {
+margin-bottom: 10px;
+}
+.contents_price-sp figure img {
+width: 150px;
+margin: 0 auto;
+}
+.contents_price-sp figcaption {
+margin-top: 15px;
+}
+.contents_price-text span {
+margin-left: 15px;
+}
+.contents_price-pc {
+display: none;
+}
+.lp aside {
+background-color: #B5B5B6;
+padding-top: 27px;
+padding-bottom: 27px;
+text-align: center;
+color: #fff;
+}
+.lp aside h2 {
+margin-bottom: 13px;
+}
+.lp aside p {
+margin-bottom: 20px;
+}
+.pc_only {
+display: none;
+}
+@media (min-width: 768px) {
+.sp_only {
+  display: none;
+}
+.pc_only {
+  display: block;
+}
+.logo_img {
+  height: 24px;
+}
+.text_vertical-rl {
+  top: 200px;
+  font-size: 24px;
+}
+.contents_lead {
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+.contents_small-text {
+  margin-bottom: 80px;
+}
+.contents4 .contents_inner {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contents4 ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 30px;
+}
+.contents4 ul li {
+  width: calc(50% - (30px * 1 / 2));
+}
+.title_flex > h3 {
+  margin-right: 30px;
+}
+.title_flex-sub > h4 {
+  font-size: 20px;
+}
+.contents_text-border {
+  margin-bottom: 20px;
+}
+.contents_logo {
+  height: 38px;
+  width: 188px;
+  margin: 26px auto 60px;
+}
+.contents_price-sp {
+  display: none;
+}
+.contents_price-pc {
+  display: block;
+  background-color: #fff;
+  padding: 80px 70px;
+}
+.contents_price-imgtext {
+  display: flex;
+  align-items: center;
+}
+.contents_price-imgtext > .contents_price-text {
+  flex: 2;
+}
+.contents_price-imgtext > .contents_price-img {
+  flex: 1;
+  margin-right: 80px;
+}
+.contents_price-cap {
+  margin-bottom: 30px;
+}
+.contents_price-title {
+  display: flex;
+  align-items: center;
+}
+.contents_price-title img {
+  width: 80px;
+  margin-right: 15px;
+}
+.lp aside {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+}
+/* エグゼクティブキーマスク */
+.lp_2 .text_vertical-rl {
+top: 60px;
+color: #CCA57E;
+}
+.lp_2 .contents_price-text span {
+display: block;
+}
+.lp_2 .contents_price-sp figure img {
+width: 230px;
+}
+.lp.lp_2 aside {
+background-color: #C8A27C;
+}
+@media (min-width: 768px) {
+.lp_2 .logo_img {
+  bottom: 80px;
+}
+.lp_2 .contents_price-cap {
+  font-size: 18px;
+}
+.lp_2 .contents_price-pc .contents_price-img {
+  margin-right: 20px;
+}
+.lp_2 .contents_price-text span {
+  display: inline;
+  margin-left: 0;
+}
+}
+
+/*アコーディオン全体*/
+.accordion-area{
+  list-style: none;
+  width: 96%;
+  max-width: 900px;
+  margin:0 auto;
+}
+
+.accordion-area li{
+  margin: 10px 0;
+}
+
+.accordion-area section {
+border: 1px solid #ccc;
+}
+
+/*アコーディオンタイトル*/
+.title {
+  position: relative;/*+マークの位置基準とするためrelative指定*/
+  cursor: pointer;
+  font-size:1.8rem;
+  font-weight: bold;
+  padding: 3% 3% 3% 50px;
+  transition: all .5s ease;
+}
+
+/*アイコンの＋と×*/
+.title::before,
+.title::after{
+  position: absolute;
+  content:'';
+  width: 15px;
+  height: 2px;
+  background-color: #333;
+  
+}
+.title::before{
+  top:48%;
+  left: 15px;
+  transform: rotate(0deg);
+  
+}
+.title::after{    
+  top:48%;
+  left: 15px;
+  transform: rotate(90deg);
+
+}
+/*　closeというクラスがついたら形状変化　*/
+.title.close::before{
+transform: rotate(45deg);
+}
+
+.title.close::after{
+transform: rotate(-45deg);
+}
+
+/*アコーディオンで現れるエリア*/
+.box {
+  display: none;/*はじめは非表示*/
+  background: #f3f3f3;
+margin:0 3% 3% 3%;
+  padding: 3%;
+}

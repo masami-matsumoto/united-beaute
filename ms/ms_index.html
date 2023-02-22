@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title><{$page.title}></title>
+<meta name="description" content="<{$page.description}>">
+<link rel="canonical" href="<{$page.canonical_url}>">
+<link rel="shortcut icon" type="image/ico" href="<{$shop.favicon_url}>">
+<meta property="og:type" content="website">
+<meta property="og:title" content="<{$page.title}>">
+<meta property="og:description" content="<{$page.description}>">
+<meta property="og:site_name" content="<{$shop.name}>">
+<meta name="twitter:card" content="Summary with Large Image">
+<{$makeshop.head}><{* <head>～</head>内に必須 *}>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="<{$page.css}>">
+</head>
+<body>
+<{$makeshop.body_top}><{* <body>直後に必須 *}>
+<{$module.header}>
+<div class="wrap">
+    <div class="page-wrap">
+        <section class="main-wrap">
+            <{if $shop.logo_url}>
+            <div class="logo-image">
+                <a href="https://united-beaute.co.jp/"><img src="<{$shop.logo_url}>" alt="<{$shop.name}>"></a>
+            </div>
+            <{/if}>
+            <div class="top-image">
+                <{$shop.mainvisual}>
+            </div>
+        </section>
+        <section class="content-wrap">
+            <p class="ms_text">brand philosophy</p>
+            <h2 class="content-title">“12COSMEの思い”</h2>
+            <p class="ms_text">美しさは時には支配されない。<br>
+               止められない時間の中で<br>
+              「美しさの期限」という概念を超えてゆく。</p>
+            <p class="ms_text">年齢を重ね続けたお肌は、<br>
+            穴の空いたバスタブのような状態。<br>
+            12COSME KEYシリーズは空いてしまった穴に<br>
+           「栓（鍵）」をすることに着目しました。</p>
+            <p class="ms_text">老化の根本原因である穴に鍵をする事で<br>
+            弱ったお肌が再び蘇るバックエイジングを実現し<br>
+            時の流れに左右されない美しさをお届けします。</p>
+        </section>
+        <!-- <section class="content-wrap">
+            <h2 class="content-title">Ranking</h2>
+            <ol class="item-list-wrap ranking-list-wrap">
+                <{section name=i loop=$ranking_item.list max=8}>
+                <li class="item-list-item">
+                    <a href="<{$ranking_item.list[i].url}>">
+                        <img src="<{$ranking_item.list[i].image_L}>" alt="<{$ranking_item.list[i].name}>">
+                        <span class="item-title"><{$ranking_item.list[i].name}></span>
+                        <span class="list-item-price">￥<{$ranking_item.list[i].price|number_format}></span>
+                    </a>
+                </li>
+                <{/section}>
+            </ol>
+        </section> -->
+        <!-- <section class="content-wrap">
+            <h2 class="content-title">New</h2>
+            <ul class="item-list-wrap">
+                <{section name=i loop=$new_item.list max=4}>
+                <li class="item-list-item">
+                    <a href="<{$new_item.list[i].url}>">
+                        <img src="<{$new_item.list[i].image_L}>" alt="<{$new_item_item.list[i].name}>">
+                        <span class="item-title"><{$new_item.list[i].name}></span>
+                        <span class="list-item-price">￥<{$new_item.list[i].price|number_format}></span>
+                    </a>
+                </li>
+                <{/section}>
+            </ul>
+        </section> -->
+        <!-- <section class="content-wrap">
+            <h2 class="content-title">Pick Up</h2>
+            <ul class="item-list-wrap">
+                <{section name=i loop=$special_item.list max=4}>
+                <li class="item-list-item">
+                    <a href="<{$special_item.list[i].url}>">
+                        <img src="<{$special_item.list[i].image_L}>" alt="<{$special_item.list[i].name}>">
+                        <span class="item-title"><{$special_item.list[i].name}></span>
+                        <span class="list-item-price">￥<{$special_item.list[i].price|number_format}></span>
+                    </a>
+                </li>
+                <{/section}>
+            </ul>
+        </section> -->
+        <section class="content-wrap btn-area">
+            <a href="/view/category/all_items" class="btn btn-all-items">All items</a>
+        </section>
+    </div>    
+    <{$module.footer}>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="<{$page.javascript}>"></script>
+<{$makeshop.body_bottom}><{* </body>直前に必須 *}>
+</body>
+</html>
