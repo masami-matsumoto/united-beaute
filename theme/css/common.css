@@ -254,6 +254,9 @@ input[type="submit"] {
   letter-spacing: 0.12em;
   line-height: 1.2;
 }
+.header-logo {
+  width: 150px;
+}
 .header-logo a {
   color: #C5A989;
 }

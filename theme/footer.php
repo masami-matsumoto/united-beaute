@@ -22,7 +22,7 @@
         <p class="freight">Copyright © 12cosme All rights reserved.</p>
       </div>
     </div>
-    <div class="footer-sns"> <img src="<?php echo get_template_directory_uri(); ?>/images/icon-instagram.svg" alt=""/></div>
+    <div class="footer-sns"><a href="https://instagram.com/12cosme_jp?igshid=YmMyMTA2M2Y="> <img src="<?php echo get_template_directory_uri(); ?>/images/icon-instagram.svg" alt=""/></a></div>
     <p id="page-top"><a href="#" class="freight">Top</a></p>
   </footer>
 </div>

@@ -11,7 +11,7 @@
     <p class="lead">美しさは時には支配されない。<br>
       止められない時間の中で<br>
       「美しさの期限」という概念を超えてゆく。</p>
-    <a href="http://shop.united-beaute.co.jp/" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a> </section>
+    <a href="https://shop.united-beaute.co.jp/" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a> </section>
   <section class="content-wrap product">
     <h2 class="content-title"><span class="slide-in leftAnime"><span class="slide-in_inner leftAnimeInner"><span class="underline freight">Line up</span></span></span></h2>
     <div class="product-container">
@@ -25,7 +25,7 @@
             <p>活き活きとした素肌作りと<br>
               バックエイジングに着目した<br>
               最先端美容液。</p>
-            <a href="http://shop.united-beaute.co.jp/view/item/000000000001?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
+            <a href="https://shop.united-beaute.co.jp/view/item/000000000001?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
         </div>
       </article>
       <article class="imgtext fadeInTrigger">
@@ -38,7 +38,7 @@
             <p>美容液をまるごと1本分含ませた<br>
               フェイスマスク<br>
               NMN×菌活スキンケア。</p>
-            <a href="http://shop.united-beaute.co.jp/view/item/000000000002?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
+            <a href="https://shop.united-beaute.co.jp/view/item/000000000002?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
         </div>
       </article>
       <!-- <article class="imgtext  fadeInTrigger">
@@ -140,7 +140,7 @@
     <p class="lead">Beauty sometimes does not rule.<br>
     In unstoppable time, the concept of "beauty's<br>
     due date goes beyond the concept of "beauty's expiration date".</p>
-    <a href="http://shop.united-beaute.co.jp/" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a> </section>
+    <a href="https://shop.united-beaute.co.jp/" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a> </section>
   <section class="content-wrap product">
     <h2 class="content-title"><span class="slide-in leftAnime"><span class="slide-in_inner leftAnimeInner"><span class="underline freight">Line up</span></span></span></h2>
     <div class="product-container">
@@ -154,7 +154,7 @@
             <p>活き活きとした素肌作りと<br>
               バックエイジングに着目した<br>
               最先端美容液。</p>
-            <a href="http://shop.united-beaute.co.jp/view/item/000000000001?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
+            <a href="https://shop.united-beaute.co.jp/view/item/000000000001?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
         </div>
       </article>
       <article class="imgtext fadeInTrigger">
@@ -167,7 +167,7 @@
             <p>美容液をまるごと1本分含ませた<br>
               フェイスマスク<br>
               NMN×菌活スキンケア。</p>
-            <a href="http://shop.united-beaute.co.jp/view/item/000000000002?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
+            <a href="https://shop.united-beaute.co.jp/view/item/000000000002?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
         </div>
       </article>
       <!-- <article class="imgtext  fadeInTrigger">

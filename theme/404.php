@@ -3,7 +3,7 @@
 <?php $locale = get_locale(); if($locale == 'ja'):?>
   <!-- デフォルト言語(日本語)の内容が入ります。 -->
 <div id="container">
-<section class="l-content-fixed section" id="news">
+<section class="l-content-fixed section_404" id="news">
   <header class="section-header">
     <h2 class="section-title">404ページ</h2>
     <p class="section-subtitle">404 Page Not Found</p>

@@ -28,11 +28,11 @@
   <!-- ヘッダー -->
   <header class="header">
     <div class="header-logo">
-      <h1> <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/12cosme_logo_mask.png" alt="12cosme"/></a> </h1>
+      <h1> <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/12Cosme_logo.svg" alt="12cosme"/></a> </h1>
     </div>
     <div class="openbtn"><span></span><span></span></div>
     <nav id="g-nav">
-      <div class="spheader"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/12cosme_logo_mask.png" alt=""/></a></div>
+      <div class="spheader"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/12Cosme_logo.svg" alt=""/></a></div>
       <?php wp_nav_menu(
       array(
       'theme_location' => 'place_global',
