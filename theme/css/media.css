@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* media */
+.banner {
+  position: fixed;
+  z-index: 990;
+  bottom: 160px;
+  right: 0;
+  width: 280px;
+}
+.banner a {
+  text-decoration: none;
+}
+.banner-item {
+  padding: 5px 10px;
+  background: var(--gold);
+  color: #000000;
+  text-align: center;
+  -webkit-box-shadow: 0 0 7px rgb(0 0 0 / 40%);
+  box-shadow: 0 0 7px rgb(0 0 0 / 40%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  border: none;
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+}
+.banner-close::before, .banner-close::after { /* 共通設定 */
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px; /* 棒の幅（太さ） */
+  height: 16px; /* 棒の高さ */
+  background: var(--gold);
+}
+.banner-close::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.banner-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.banner-data {
+  width: 170px;
+  color: #fff;
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.banner-data span:first-of-type {
+  font-size: 12px;
+  display: inline-block;
+  background: #000;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+.banner-data span:nth-of-type(2) {
+  display: block;
+}
+.banner-img {
+  width: calc(100% - 180px);
+  margin-top: 5px;
+}
+.banner-img img {
+  width: 100%;
+  max-width: none;
+}
+.sectionLead-banner {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .banner {
+    display: none;
+  }
+  .sectionLead-banner {
+    display: block;
+    margin-top: 60px;
+  }
+  .sectionLead-banner .banner-data {
+    width: calc(100% - 100px);
+  }
+  .sectionLead-banner .banner-data span:nth-of-type(2) {
+    font-size: 18px;
+  }
+  .sectionLead-banner a {
+    display: block;
+    width: 400px;
+    margin: auto;
+  }
+  .sectionLead-banner .banner-item {
+    padding: 10px 20px;
+  }
+  .sectionLead-banner .banner-img {
+    width: 100px;
+  }
+}
+.spPublish {
+  padding-bottom: 100px;
+}
+.pcPublish {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .spPublish {
+    display: none;
+  }
+  .pcPublish {
+    display: block;
+    margin-bottom: 80px;
+  }
+  .publish-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+	.publish-item a:hover {
+		cursor: zoom-in;
+	}
+}

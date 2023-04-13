@@ -25,8 +25,29 @@
     <div class="footer-sns"><a href="https://instagram.com/12cosme_jp?igshid=YmMyMTA2M2Y="> <img src="<?php echo get_template_directory_uri(); ?>/images/icon-instagram.svg" alt=""/></a></div>
     <p id="page-top"><a href="#" class="freight">Top</a></p>
   </footer>
+  <div class="banner" id="banner">
+    <button class="banner-close" type="button" aria-label="閉じる"></button>
+    <a href="#publish">
+    <div class="banner-item">
+      <p class="banner-data"><span>美人百花2023年4月号増刊</span><span>『大人百花Spring issue』<br>
+        12cosmeが掲載されました。</span></p>
+      <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__64069638.jpg" alt=""/></div>
+    </div>
+    </a> </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/swiper-bundle.min.js"></script> 
+<script>
+	const swiper = new Swiper(".swiper", {
+		speed: 1000,
+		loop: false,
+		autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+	});
+	</script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
 </body>
 </html>

@@ -11,7 +11,19 @@
     <p class="lead">美しさは時には支配されない。<br>
       止められない時間の中で<br>
       「美しさの期限」という概念を超えてゆく。</p>
-    <a href="https://shop.united-beaute.co.jp/" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a> </section>
+      <a href="https://shop.united-beaute.co.jp/" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a>
+      <div class="sectionLead-banner swiper">
+      <div class="swiper-wrapper" id="page-link">
+        <div class="swiper-slide"> <a href="#publish">
+          <div class="banner-item">
+            <p class="banner-data"><span>美人百花2023年4月号 増刊</span><span>『大人百花Spring issue』<br>
+              12cosmeが掲載されました。</span></p>
+            <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__64069638.jpg" alt=""/></div>
+          </div>
+          </a> </div>
+      </div>
+    </div> 
+  </section>
   <section class="content-wrap product">
     <h2 class="content-title"><span class="slide-in leftAnime"><span class="slide-in_inner leftAnimeInner"><span class="underline freight">Line up</span></span></span></h2>
     <div class="product-container">
@@ -54,6 +66,19 @@
             <a href="#" class="btn btntextchange"><span>More ＆ Buy</span><span>商品ページへ</span></a> </div>
         </div>
       </article> --> 
+    </div>
+  </section>
+  <section class="content-wrap publish" id="publish">
+    <h2 class="content-title"><span class="slide-in leftAnime"><span class="slide-in_inner leftAnimeInner"><span class="underline freight">Media</span></span></span></h2>
+    <div class="swiper spPublish">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="<?php echo get_template_directory_uri(); ?>/images/S__64069636_kiji.jpg" class="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/0411_sai_banner_1.jpg" alt=""></a></div>
+      </div>
+    </div>
+    <div class="pcPublish">
+      <div class="publish-container">
+        <div class="publish-item"><a href="<?php echo get_template_directory_uri(); ?>/images/S__64069636_kiji.jpg" class="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/0411_sai_banner_1.jpg" alt=""/></a></div>
+      </div>
     </div>
   </section>
   <section class="about section-border">

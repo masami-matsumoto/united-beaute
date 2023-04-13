@@ -41,7 +41,6 @@
   left: 50%;
   transform: translateX(-50%);
   padding-top: 20px;
-  width: 150px;
 }
 /*========= 三本線ボタンのCSS ===============*/
 .openbtn {
@@ -149,7 +148,7 @@
 @media screen and (min-width: 1024px) {
   .mv-wrap {
     background-image: url("../images/mv_pc.jpg");
-    padding-top: 5.2vw;
+    padding-top: 76.2px;
   }
   .mv-wrap p {
     display: none;
@@ -275,11 +274,9 @@
   }
   .product-container {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     padding-bottom: 40px;
-  }
-  .product-container .imgtext {
-    flex-grow: 1;
   }
   .imgtext-container {
     flex-direction: column;
@@ -518,14 +515,10 @@
 }
 .section-subtitle {
   color: #F2EAE2;
-  font-family: montserrat, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5625rem;
   text-align: center;
-}
-.section_404 {
-  padding: 400px 0;
 }
 .level3-heading {
   position: relative;
@@ -825,11 +818,11 @@
   padding: 100px 1rem;
 }
 /* service */
-.page_service {
+.page .service {
   padding-top: 100px;
   background-color: var(--black);
 }
-.page_service .section-header {
+.page .service .section-header {
   margin-bottom: 60px;
 }
 .service-img-wrapper img {
@@ -909,9 +902,9 @@
   margin: 60px auto;
 }
 .horizontal-form__inner {
-  padding: 3em;
+  padding: 2em;
   background-color: #fff;
-  /* border-radius: 20px; */
+  border-radius: 20px;
 }
 .input-box {
   display: flex;

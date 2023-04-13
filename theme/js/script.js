@@ -1,3 +1,29 @@
+$(function () {
+  $(document).ready(function () {
+    $('.banner-close').click(function () {
+      $(this).parent().hide();
+    });
+  });
+});
+//3. 画像のモーダル
+$(".gallery").modaal({
+  type: 'image',
+  overlay_close: true, //モーダル背景クリック時に閉じるか
+  before_open: function () { // モーダルが開く前に行う動作
+    $('html').css('overflow-y', 'hidden'); /*縦スクロールバーを出さない*/
+  },
+  after_close: function () { // モーダルが閉じた後に行う動作
+    $('html').css('overflow-y', 'scroll'); /*縦スクロールバーを出す*/
+  }
+});
+$('#page-link a[href*="#"]').click(function () { //全てのページ内リンクに適用させたい場合はa[href*="#"]のみでもOK
+  var elmHash = $(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
+  var pos = $(elmHash).offset().top; //idの上部の距離を取得
+  $('body,html').animate({
+    scrollTop: pos
+  }, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
+  return false;
+});
 $(".openbtn").click(function () { //ボタンがクリックされたら
   $(this).toggleClass('active'); //ボタン自身に activeクラスを付与し
   $("#g-nav").toggleClass('panelactive'); //ナビゲーションにpanelactiveクラスを付与
@@ -13,7 +39,7 @@ $("#g-nav a").click(function () { //ナビゲーションのリンクがクリ�
 //スクロールした際の動きを関数でまとめる
 function PageTopAnime() {
   var scroll = $(window).scrollTop();
-  if (scroll >= 600) { //上から600pxスクロールしたら
+  if (scroll >= 200) { //上から200pxスクロールしたら
     $('#page-top').removeClass('DownMove'); //#page-topについているDownMoveというクラス名を除く
     $('#page-top').addClass('UpMove'); //#page-topについているUpMoveというクラス名を付与
   } else {
