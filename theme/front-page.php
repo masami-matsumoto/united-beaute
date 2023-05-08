@@ -21,6 +21,13 @@
             <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__64069638.jpg" alt=""/></div>
           </div>
           </a> </div>
+          <div class="swiper-slide"> <a href="#publish">
+          <div class="banner-item">
+            <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
+              掲載されました。</span></p>
+            <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__111591427.jpg" alt=""/></div>
+          </div>
+          </a> </div>
       </div>
     </div> 
   </section>
@@ -73,11 +80,13 @@
     <div class="swiper spPublish">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><a href="<?php echo get_template_directory_uri(); ?>/images/S__64069636_kiji.jpg" class="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/0411_sai_banner_1.jpg" alt=""></a></div>
+        <div class="swiper-slide"><a href="<?php echo get_template_directory_uri(); ?>/images/S__111591427_kiji.jpg" class="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/0506_yuuyuu_bannerol.jpg" alt=""></a></div>
       </div>
     </div>
     <div class="pcPublish">
       <div class="publish-container">
         <div class="publish-item"><a href="<?php echo get_template_directory_uri(); ?>/images/S__64069636_kiji.jpg" class="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/0411_sai_banner_1.jpg" alt=""/></a></div>
+        <div class="publish-item"><a href="<?php echo get_template_directory_uri(); ?>/images/S__111591427_kiji.jpg" class="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/0506_yuuyuu_bannerol.jpg" alt=""/></a></div>
       </div>
     </div>
   </section>

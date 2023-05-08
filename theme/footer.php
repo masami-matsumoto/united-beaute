@@ -29,10 +29,10 @@
     <button class="banner-close" type="button" aria-label="閉じる"></button>
     <a href="#publish">
     <div class="banner-item">
-      <p class="banner-data"><span>美人百花2023年4月号増刊</span><span>『大人百花Spring issue』<br>
-        12cosmeが掲載されました。</span></p>
-      <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__64069638.jpg" alt=""/></div>
-    </div>
+            <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
+              掲載されました。</span></p>
+            <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__111591427.jpg" alt=""/></div>
+          </div>
     </a> </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -41,7 +41,7 @@
 <script>
 	const swiper = new Swiper(".swiper", {
 		speed: 1000,
-		loop: false,
+		loop: true,
 		autoplay: {
         delay: 3000,
         disableOnInteraction: false,

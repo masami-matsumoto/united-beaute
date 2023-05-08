@@ -6,8 +6,11 @@
 <meta name="format-detection" content="telephone=no">
 <title>UNITED＆BEAUTE</title>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
 <script>
   (function(d) {
     var config = {
@@ -17,18 +20,18 @@
     },
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
-</script>	
+</script>
 </head>
 <body>
 <div id="wrapper"> 
   <!-- ヘッダー -->
   <header class="header">
     <div class="header-logo">
-      <h1> <a href="index.html"><img src="images/12cosme_logo_mask.png" alt="12cosme"/></a> </h1>
+      <h1> <a href="index.html"><img src="images/12Cosme_logo.png" alt="12cosme"/></a> </h1>
     </div>
     <div class="openbtn"><span></span><span></span></div>
     <nav id="g-nav">
-      <div class="spheader"><a href="index.html"><img src="images/12cosme_logo_mask.png" alt=""/></a></div>
+      <div class="spheader"><a href="index.html"><img src="images/12cosme_logo.png" alt=""/></a></div>
       <ul>
         <li><a href="http://shop.united-beaute.co.jp/" class="freight">12 Cosme</a></li>
         <li><a href="http://shop.united-beaute.co.jp/view/category/all_items" class="freight">All Item</a></li>
@@ -48,7 +51,26 @@
     <p class="lead">美しさは時には支配されない。<br>
       止められない時間の中で<br>
       「美しさの期限」という概念を超えてゆく。</p>
-    <a href="#" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a> </section>
+    <a href="#" class="btn btn-accent2 btntextchange"><span class="freight">About 12Cosme</span><span>12コスメの思い</span></a>
+    <div class="sectionLead-banner swiper">
+      <div class="swiper-wrapper" id="page-link">
+        <div class="swiper-slide"> <a href="#publish">
+          <div class="banner-item">
+            <p class="banner-data"><span>美人百花2023年4月号増刊</span><span>『大人百花Spring issue』<br>
+              12cosmeが掲載されました。</span></p>
+            <div class="banner-img"><img src="images/S__64069638.jpg" alt=""/></div>
+          </div>
+          </a> </div>
+        <div class="swiper-slide"> <a href="#publish">
+          <div class="banner-item">
+            <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
+              掲載されました。</span></p>
+            <div class="banner-img"><img src="images/S__111591427.jpg" alt=""/></div>
+          </div>
+          </a> </div>
+      </div>
+    </div>
+  </section>
   <section class="content-wrap product">
     <h2 class="content-title"><span class="slide-in leftAnime"><span class="slide-in_inner leftAnimeInner"><span class="underline freight">Line up</span></span></span></h2>
     <div class="product-container">
@@ -91,6 +113,21 @@
             <a href="#" class="btn btntextchange"><span>More ＆ Buy</span><span>商品ページへ</span></a> </div>
         </div>
       </article> --> 
+    </div>
+  </section>
+  <section class="content-wrap publish" id="publish">
+    <h2 class="content-title"><span class="slide-in leftAnime"><span class="slide-in_inner leftAnimeInner"><span class="underline freight">Media</span></span></span></h2>
+    <div class="swiper spPublish">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="images/S__64069636_kiji.jpg" class="gallery"><img src="images/0411_sai_banner_1.jpg" alt=""></a></div>
+        <div class="swiper-slide"><a href="images/S__111591427_kiji.jpg" class="gallery"><img src="images/0506_yuuyuu_bannerol.jpg" alt=""></a></div>
+      </div>
+    </div>
+    <div class="pcPublish">
+      <div class="publish-container">
+        <div class="publish-item"><a href="images/S__64069636_kiji.jpg" class="gallery"><img src="images/0411_sai_banner_1.jpg" alt=""/></a></div>
+        <div class="publish-item"><a href="images/S__111591427_kiji.jpg" class="gallery"><img src="images/0506_yuuyuu_bannerol.jpg" alt=""/></a></div>
+      </div>
     </div>
   </section>
   <section class="about section-border">
@@ -183,8 +220,29 @@
     <div class="footer-sns"> <img src="images/icon-instagram.svg" alt=""/></div>
     <p id="page-top"><a href="#" class="freight">Top</a></p>
   </footer>
+  <div class="banner" id="banner">
+    <button class="banner-close" type="button" aria-label="閉じる"></button>
+    <a href="#publish">
+     <div class="banner-item">
+            <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
+              掲載されました。</span></p>
+            <div class="banner-img"><img src="images/S__111591427.jpg" alt=""/></div>
+          </div>
+    </a> </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script>
+	const swiper = new Swiper(".swiper", {
+		speed: 1000,
+		loop: true,
+		autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+	});
+	</script> 
 <script src="js/script.js"></script>
 </body>
 </html>
