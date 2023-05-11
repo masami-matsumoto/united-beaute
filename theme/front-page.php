@@ -16,16 +16,16 @@
       <div class="swiper-wrapper" id="page-link">
         <div class="swiper-slide"> <a href="#publish">
           <div class="banner-item">
-            <p class="banner-data"><span>美人百花2023年4月号 増刊</span><span>『大人百花Spring issue』<br>
-              12cosmeが掲載されました。</span></p>
-            <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__64069638.jpg" alt=""/></div>
+            <!-- <p class="banner-data"><span>美人百花2023年4月号 増刊</span><span>『大人百花Spring issue』<br>
+              12cosmeが掲載されました。</span></p> -->
+            <img src="<?php echo get_template_directory_uri(); ?>/images/sai_pc_popup.jpg" alt=""/>
           </div>
           </a> </div>
           <div class="swiper-slide"> <a href="#publish">
           <div class="banner-item">
-            <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
-              掲載されました。</span></p>
-            <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__111591427.jpg" alt=""/></div>
+            <!-- <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
+              掲載されました。</span></p> -->
+            <img src="<?php echo get_template_directory_uri(); ?>/images/yuuyuu_pc_popup.jpg" alt=""/>
           </div>
           </a> </div>
       </div>

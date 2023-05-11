@@ -29,9 +29,9 @@
     <button class="banner-close" type="button" aria-label="閉じる"></button>
     <a href="#publish">
     <div class="banner-item">
-            <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
-              掲載されました。</span></p>
-            <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/images/S__111591427.jpg" alt=""/></div>
+            <!-- <p class="banner-data"><span></span><span>ゆうゆう6月号に <br>
+              掲載されました。</span></p> -->
+            <img src="<?php echo get_template_directory_uri(); ?>/images/yuuyuu_pc_popup.jpg" alt=""/>
           </div>
     </a> </div>
 </div>
