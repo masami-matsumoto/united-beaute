@@ -25,6 +25,7 @@
     <div class="footer-sns"><a href="https://instagram.com/12cosme_jp?igshid=YmMyMTA2M2Y="> <img src="<?php echo get_template_directory_uri(); ?>/images/icon-instagram.svg" alt=""/></a></div>
     <p id="page-top"><a href="#" class="freight">Top</a></p>
   </footer>
+  <?php if ( is_home() || is_front_page() ) : ?>
   <div class="banner" id="banner">
     <button class="banner-close" type="button" aria-label="閉じる"></button>
     <a href="#publish">
@@ -34,6 +35,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/yuuyuu_pc_popup.jpg" alt=""/>
           </div>
     </a> </div>
+    <?php endif; ?>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script> 

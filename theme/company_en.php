@@ -47,7 +47,7 @@ That is our mission.</p>
           </tr>
           <tr class="horizontal-table-row">
             <th class="horizontal-table-header">TEL </th>
-            <td class="horizontal-table-text">03-6746-4968</td>
+            <td class="horizontal-table-text">03-6264-8471</td>
           </tr>
           <tr class="horizontal-table-row">
             <th class="horizontal-table-header">EST </th>

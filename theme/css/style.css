@@ -825,6 +825,10 @@
 .page .service .section-header {
   margin-bottom: 60px;
 }
+.page_service {
+  padding-top: 98px;
+}
+
 .service-img-wrapper img {
   width: 100vw;
 }
