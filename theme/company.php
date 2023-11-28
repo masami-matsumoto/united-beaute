@@ -43,8 +43,8 @@ get_header();
           </tr>
           <tr class="horizontal-table-row">
             <th class="horizontal-table-header">住所 </th>
-            <td class="horizontal-table-text">〒100-0006<br>
-              東京都千代田区有楽町1-2-2-9F</td>
+            <td class="horizontal-table-text">〒103-0007<br>
+            東京都中央区日本橋浜町2丁目30番1号 KVK日本橋浜町ビル5階B</td>
           </tr>
           <tr class="horizontal-table-row">
             <th class="horizontal-table-header">TEL </th>

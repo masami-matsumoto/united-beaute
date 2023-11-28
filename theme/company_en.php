@@ -43,11 +43,11 @@ That is our mission.</p>
           </tr>
           <tr class="horizontal-table-row">
             <th class="horizontal-table-header">Address </th>
-            <td class="horizontal-table-text">1-2-2-9F Yurakucho, Chiyoda-ku, Tokyo</td>
+            <td class="horizontal-table-text">#B KVKnihonbashi Bldg5F,2-30-1, Nihombashihamacho, Chuo-ku,Tokyo, Japan</td>
           </tr>
           <tr class="horizontal-table-row">
             <th class="horizontal-table-header">TEL </th>
-            <td class="horizontal-table-text">03-6264-8471</td>
+            <td class="horizontal-table-text">+81-3-6264-8471</td>
           </tr>
           <tr class="horizontal-table-row">
             <th class="horizontal-table-header">EST </th>

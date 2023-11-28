@@ -154,12 +154,12 @@
         </div>
       </div>
       <a href="<?php echo get_template_directory_uri(); ?>/contact/" class="btn btn-accent2">資料請求・お問い合わせ</a>
-      <p class="textTel"><a href="tel:03-6264-8471">TEL 03−6264−8471</a></p>
+      <p class="textTel"><a href="tel:03-6264-8471">TEL 03−6264-8471</a></p>
       <p class="textTime">受付時間：平日9:00～18:00</p>
       <div class="company-wrap">
         <p class="company-name">株式会社UNITED＆BEAUTE</p>
-        <p class="company-address">〒100−0006<br>
-          東京都千代田区有楽町1−2−2 東宝日比谷ビル9F</p>
+        <p class="company-address">〒103−0007<br>
+        東京都中央区日本橋浜町2丁目30番1号 KVK日本橋浜町ビル5階B</p>
       </div>
     </div>
   </section>
@@ -286,8 +286,8 @@
       <p class="textTime">Reception Hours：weekday9:00～18:00</p>
       <div class="company-wrap">
         <p class="company-name">UNITED&BEAUTE Co., Ltd.</p>
-        <p class="company-address">〒100−0006<br>
-        1-2-2-9F Yurakucho, Chiyoda-ku, Tokyo</p>
+        <p class="company-address">〒103−0007<br>
+        #B KVKnihonbashi Bldg5F,2-30-1, Nihombashihamacho, Chuo-ku,Tokyo, 103-0007, Japan</p>
       </div>
     </div>
   </section>
