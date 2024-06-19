@@ -34,6 +34,17 @@
   <section class="content-wrap product">
     <h2 class="content-title"><span class="slide-in leftAnime"><span class="slide-in_inner leftAnimeInner"><span class="underline freight">Line up</span></span></span></h2>
     <div class="product-container">
+    <article class="imgtext  fadeInTrigger">
+        <div class="imgtext-container">
+          <figure><img src="<?php echo get_template_directory_uri(); ?>/images/item04.jpg" alt=""/></figure>
+          <div class="imgtext-body">
+            <h3 class="freight">NMN<br>
+              Executive Key Lotion<br>
+              <span class="fot-tsukuaoldmin-pr6n">エグゼクティブキーローション</span></h3>
+            <p>若返りという最新テクノロジーと<br>お肌への優しさが融合した<br>化粧水。</p>
+          </div>
+        </div>
+      </article>
       <article class="imgtext fadeInTrigger">
         <div class="imgtext-container">
           <figure><img src="<?php echo get_template_directory_uri(); ?>/images/item01.jpg" alt=""/></figure>
@@ -45,6 +56,17 @@
               バックエイジングに着目した<br>
               最先端美容液。</p>
             <a href="https://shop.united-beaute.co.jp/view/item/000000000001?category_page_id=all_items" class="btn btntextchange"><span class="freight">More ＆ Buy</span><span>商品ページへ</span></a> </div>
+        </div>
+      </article>
+      <article class="imgtext  fadeInTrigger">
+        <div class="imgtext-container">
+          <figure><img src="<?php echo get_template_directory_uri(); ?>/images/item03.jpg" alt=""/></figure>
+          <div class="imgtext-body">
+            <h3 class="freight">NMN<br>
+              Executive Key Cream<br>
+              <span class="fot-tsukuaoldmin-pr6n">エグゼクティブキークリーム</span></h3>
+            <p>爽やかジェルと濃密クリームの<br>Wの効果を一度で感じられる<br>新感覚クリーム。</p>
+          </div>
         </div>
       </article>
       <article class="imgtext fadeInTrigger">

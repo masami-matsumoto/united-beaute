@@ -254,6 +254,9 @@ input[type="submit"] {
   letter-spacing: 0.12em;
   line-height: 1.2;
 }
+.header-logo {
+  width: 150px;
+}
 .header-logo a {
   color: #C5A989;
 }
@@ -274,11 +277,11 @@ input[type="submit"] {
   color: #666666;
   position: relative;
 }
-.footer a {
+/* .footer a {
   padding: 1rem;
   vertical-align: middle;
   display: inline-block;
-}
+} */
 .footer-inner {
   width: 100%;
   max-width: 910px;
